@@ -1,0 +1,17 @@
+{
+  "name": "mono-repo-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"pnpm run -r test",
+    "projectOne": "pnpm run --filter project-one dev",
+    "projectTwo": "pnpm run --filter project-two dev"
+  },
+  "keywords": [],
+  "author": "mttinor",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.2"
+  }
+}

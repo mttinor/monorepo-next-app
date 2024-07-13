@@ -1,0 +1,4 @@
+packages:
+  - "packages/*"
+  - project-one
+  - project-two
